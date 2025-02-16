@@ -1,0 +1,33 @@
+{
+  "name": "wallet-sdk-ts",
+  "version": "1.0.0",
+  "description": "对接不同链的sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wong1998/wallet-sdk-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wong1998/wallet-sdk-ts/issues"
+  },
+  "homepage": "https://github.com/wong1998/wallet-sdk-ts#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "bip32": "3.0.1",
+    "bip39": "^3.1.0",
+    "bitcoinjs-lib": "6.0.1",
+    "ecpair": "^3.0.0-rc.0",
+    "tiny-secp256k1": "^2.2.3"
+  }
+}
