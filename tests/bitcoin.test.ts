@@ -1,4 +1,5 @@
-import {createBTCAddress, mnemonicToSeed} from "../src/bitcoin/bitcoin";
+import {createBTCAddress} from "../src/bitcoin/bitcoin";
+import {mnemonicToSeed} from "../src/bip/bip";
 
 
 describe('btc unit test case', () => {
